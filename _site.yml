@@ -1,20 +1,20 @@
-name: "Grace Douglas Portfolio"
+name: "John Douglas Portfolio"
 output_dir: "."  # Changed from "_site" to "." for root
 encoding: utf-8
 navbar:
-  title: "Grace Douglas"
+  title: "John Douglas"
   left:
     - text: "home"
       href: index.html
-    - text: "about"
+    - text: "Experience"
       href: timeline.html
-    - text: "research"
+    - text: "Research"
       href: projects.html
-    - text: "tools"
+    - text: "Skills"
       href: hardware.html
-    - text: ".FUN"
+    - text: "Hobbies"
       href: FUN.html
-    - text: "cv"
+    - text: "Resume"
       href: resume.html
 output:
   html_document:

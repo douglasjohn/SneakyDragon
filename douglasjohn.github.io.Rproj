@@ -16,7 +16,7 @@ AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
 BuildType: Website
-WebsitePath: /Users/gracedouglas/Documents/arXiv/grackith.github.io/_site.yml
+WebsitePath: /Users/johndouglas/SneakyDragon/_site.yml
 
 ZoteroLibraries: "My Library"
 
