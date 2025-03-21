@@ -4,7 +4,7 @@ encoding: utf-8
 navbar:
   title: "John Douglas"
   left:
-    - text: "home"
+    - text: "Home"
       href: index.html
     - text: "Experience"
       href: timeline.html
