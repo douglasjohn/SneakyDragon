@@ -150,16 +150,14 @@ if (window.hljs) {
         <div class="content-column">
           <h3>Programming Languages</h3>
           
-          <ul>
-            <li>Python</li>
+            <h5>Python</h5>
             <p><strong>Libraries:</strong> Scikit-Learn, PyTorch, Pandas, NumPy.</p>
             <p><strong>Projects:</strong> Explaining major factors leading to healthcare attrition & prediction of attrition given a new sample, breast cancer classification, and finding number of relevant objects in a frame.</p>
-            <li>R</li>
+            <h5>R</h5>
             <p><strong>Packages:</strong> Tidyverse, TSA, Shiny, STM</p>
             <p><strong>Projects:</strong> Evaluating, diagnosing, and forceasting time series, performing subject topic modeling from interview data, and high level data visualization techniques such as ggplot and Shiny apps.</p>
-            <li>SQL</li>
+            <h5>SQL</h5>
             <p><strong>Projects:</strong> Fetching via relational databases, creating functions for datapipelining, using MySQL with Spark + Azure Databricks for fast retrieval.</p>
-          </ul>
         </div>
         <div class="image-column">
           <figure class="image-item">
@@ -168,27 +166,30 @@ if (window.hljs) {
           </figure>
         </div>
       </div>
-      <div class="fun-note">︎💡<em> Fun fact: Motion sickness occurs when your body feels movement but your eyes don't match it. Cybersickness is the opposite - your eyes see movement on screens (like in VR) but your body isn't actually moving. Both can cause nausea and dizziness, but they're triggered differently.<sup>[1]</sup></em>
+      <!--
+      <div class="fun-note">︎💡<em> 
       </div>
-      <!-- Second row: Vehicle and Free-motion simulators with stacked images -->
+      -->
+
+      <!-- Second row: Optimization -->
       <div class="two-column-layout" style="margin-top: 2rem;">
         <div class="content-column">
-          <h4 id="veh-sim-header">Vehicle simulators</h4>
-          <p>The <a href="https://dsri.uiowa.edu/minisim"> NADS miniSim Quarter Cab</a> vehicle simualtor is the largest driving simulator I work with. The system incorporates OEM vehicle components and a tri-screen display configuration, delivering a 180-degree field of view that can ideally mimic real-world driving conditions. The platform's advanced physics engine accurately models various environmental conditions, while integrated eye-tracking and behavioral monitoring systems capture rich data about driver behavior and attention patterns. In addition to the miniSim we also use a <a href="https://www.logitechg.com/en-us/products/driving/driving-force-racing-wheel.html?srsltid=AfmBOoryEslRt19bCjdeIB_mZbhCj2-IXkjB7EHYvGlUei3H0D2yZ7et"> Logitech G29</a> <em></em> force-feedback steering pedal and wheel set, which provides a flexible configuration for 2-driver studies.</p>
-    
-          <h4 id="free-sim-header">Free-motion simulators</h4>
-          <p>The integration of <a href="https://www.meta.com/quest/products/quest-2/?srsltid=AfmBOoouxT45H6qu0Ke8vjGBRk9JPxnHfb89alTFlnZJIBIDoSqmn3Bx"> Meta Quest 2</a> and <a href="https://www.meta.com/quest/quest-pro/"> Meta Quest Pro</a> systems extends our capability to provide more immersive experimentation solutions. For example, becoming a pedestrian requires the construct of a road space and traffic environment. These advanced HMDs feature high-resolution immersion that allows us to design environments to target certain rare traffic scenarios. Integrated eye-tracking and facial expression monitoring systems provide detailed data about participant attention and ~emotional states during interactions.</p>
+          <h4 id="veh-sim-header">Optimization</h4>
+          <h5>Julia</h5>
+          <p>Optimization pops up everywhere. I have learned both linear, nonlinear, and integer optimization utilizing Julia and old fashioned pen & paper. I've tackled problems such as shortest path, resource allocation, scheduling, and max flow.</p>
+          <h4 id="free-sim-header">Optimize within ML</h4>
+          <p>Machine learning models utilize optimization any chance possible. Typically used to find the optimizal hyperparameter values to find the minimum of the (often non-convex) loss function can lead to improved accuracy and generalization. I have utilized Stochastic Gradient Descent, Gradient Descent, Adam, and Bayesian methods for this often overlooked, but necessary task. </p>
         </div>
         
         <div class="image-column">
           <div style="display: flex; flex-direction: column; gap: 2rem;">
             <figure>
-              <img src="images/quarter-cab-specs.png" alt="Quarter cab specifications" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
-              <figcaption class="image-caption">Quarter cab technical specifications.</figcaption>
+              <img src="images/Optimize.png" alt="Optimize" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
+              <figcaption class="image-caption">Bucky tries to find the lowest point of Mendota</figcaption>
             </figure>
             <figure>
-              <img src="images/viewport.png" alt="Viewport" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
-              <figcaption class="image-caption">Simulator viewport configuration.</figcaption>
+              <img src="images/BuckySwim.png" alt="BuckySwim" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
+              <figcaption class="image-caption">Bucky goes for a dip</figcaption>
             </figure>
           </div>
         </div>
