@@ -170,38 +170,37 @@ if (window.hljs) {
       <div class="fun-note">︎💡<em> 
       </div>
       -->
-
-      <!-- Second row: Optimization -->
-      <div class="two-column-layout" style="margin-top: 2rem;">
+    </section>
+      
+    <!-- Optimization -->
+    <section class="lab-section">
+      <div class="two-column-layout">
         <div class="content-column">
-          <h4 id="veh-sim-header">Optimization</h4>
+          <h3 id="network">Optimization</h3>
           <h5>Julia</h5>
           <p>Optimization pops up everywhere. I have learned both linear, nonlinear, and integer optimization utilizing Julia and old fashioned pen & paper. I've tackled problems such as shortest path, resource allocation, scheduling, and max flow.</p>
           <h4 id="free-sim-header">Optimize within ML</h4>
           <p>Machine learning models utilize optimization any chance possible. Typically used to find the optimizal hyperparameter values to find the minimum of the (often non-convex) loss function can lead to improved accuracy and generalization. I have utilized Stochastic Gradient Descent, Gradient Descent, Adam, and Bayesian methods for this often overlooked, but necessary task. </p>
         </div>
-        
         <div class="image-column">
-          <div style="display: flex; flex-direction: column; gap: 2rem;">
-            <figure>
-              <img src="images/Optimize.png" alt="Optimize" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
+          <div class="sticky-images">
+            <figure class="image-item">
+              <figcaption class="image-caption"></figcaption>
+              <img src="images/Optimize.png" alt=" ">
               <figcaption class="image-caption">Bucky tries to find the lowest point of Mendota</figcaption>
-            </figure>
-            <figure>
-              <img src="images/BuckySwim.png" alt="BuckySwim" style="width: 100%; height: auto; max-height: 500px; object-fit: contain;">
-              <figcaption class="image-caption">Bucky goes for a dip</figcaption>
             </figure>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Motion Capture Section -->
+    <!-- Simulation -->
     <section class="lab-section">
       <div class="two-column-layout">
         <div class="content-column">
-          <h3 id="mocap-header"> Motion capture</h3>
-          <p>Motion capture helps to precisely measure, model, and reproduce operational human movement. In my research, motion capture streams are useful for capturing behavior of pedestrians and other vulnerable road users with incredibly granularity.</p>
+          <h3 id="mocap-header"> Simulation</h3>
+
+          <p></p>
 
           <h4>OptiTrack (outside-in tracking)</h4>
           <p>Our <a href="https://optitrack.com/">OptiTrack</a> setup is like having 24 super-precise cameras all working together. Operating at up to 120hz and integrates directly with Strangeland! This system also tracks multiple people at once - perfect for studying group dynamics such as herd behavior and in- and out-group biases. Addtitionally, optiTrack supports a .NET base, allowing participants to interact on-line.</p>
@@ -210,21 +209,10 @@ if (window.hljs) {
           <p>The <a href="https://www.sony.net/Products/mocopi-dev/en/documents/Home/Aboutmocopi.html">Sony Mocopi</a> is our newest toy, and it lets us catpure movement on the go! As a portable motion capture solution, six wireless IMU-based sensors enable natural movement studies in both lab and field settings. This dual-system approach provides flexibility in studying pedestrian behavior across various environmental contexts while maintaining high data fidelity.</p>
         </div>
 
-        <!-- Motion Capture Images Gallery -->
+        <!-- Simulation -->
         <div class="image-column">
           <div class="stacked-images">
-            <figure style="margin: 0;">
-              <video 
-                controls
-                muted
-                playsinline
-                style="width: 100%; height: auto; max-height: 500px; object-fit: contain;"
-              >
-                <source src="videos/highschooler-blend.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <figcaption style="text-align: center; margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;"></figcaption>
-            </figure>
+            
             <figure class="image-item">
               <img src="images/optitrack.jpeg" alt="OptiTrack camera system">
               <figcaption class="image-caption">OptiTrack motion capture system</figcaption>
